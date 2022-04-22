@@ -24,7 +24,7 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest)-based project that automatizes the search process of Carrefour products and checks their availability, providing info such as price, product image and the date where data was processed. After running products-provider, Kafka will start consuming the messages posted and the result is saved and constantly updated into src/carrefour/carrefourItems.json. It's a very simple project with lots of room for improvement, but considering it's my first rpa I'm very proud of it! Enjoy!
+[Nest](https://github.com/nestjs/nest)-based project that automatizes the search process of Carrefour products and checks their availability, providing info such as price, product image and the date where data was processed. After running products-provider, supermarket-rpa will start consuming the messages posted and the result is saved and constantly updated into src/carrefour/carrefourItems.json. It's a very simple project with lots of room for improvement, but considering it's my first rpa I'm very proud of it! Enjoy!
 
 ** In order to run, a valid zip code must be provided in the request body. For both endpoints below, use the following template:
 
